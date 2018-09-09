@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuickSort
+namespace Sorts
 {
-    class Program
+    public class Program
     {
 
-        public static int partition(int[] arr, int low, int high)
+        public int Partition(int[] arr, int low, int high)
         {
             int pivot = arr[high];
 
@@ -36,24 +36,25 @@ namespace QuickSort
             return i + 1;
         }
 
-        public static void quickSort(int[] arr, int low, int high)
+        public void QuickSort(int[] arr, int low, int high)
         {
             if (low < high)
             {
-                int pi = partition(arr, low, high);
+                int pi = Partition(arr, low, high);
 
-                quickSort(arr, low, pi - 1);
-                quickSort(arr, pi + 1, high);
+                QuickSort(arr, low, pi - 1);
+                QuickSort(arr, pi + 1, high);
             }
         }
 
 
         static void Main(string[] args)
         {
+            Program pr = new Program();
             int[] arr = { 10, 7, 8, 9, 1, 5 };
             int n = arr.Length;
             Stopwatch t = Stopwatch.StartNew();
-            quickSort(arr, 0, n - 1);
+            pr.QuickSort(arr, 0, n - 1);
             Console.WriteLine(t.Elapsed.TotalMilliseconds);
             arr.ToList().ForEach(a => Console.WriteLine(a));
 

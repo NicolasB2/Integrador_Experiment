@@ -55,9 +55,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QuickSort\QuickSort.csproj">
+    <ProjectReference Include="..\QuickSort\Sorts.csproj">
       <Project>{a9c98349-8872-4a02-b535-53c1e2b9e945}</Project>
-      <Name>QuickSort</Name>
+      <Name>Sorts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
