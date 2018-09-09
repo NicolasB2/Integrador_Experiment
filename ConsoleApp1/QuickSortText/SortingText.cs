@@ -8,7 +8,7 @@ namespace QuickSortText
 
 {
     [TestClass]
-    public class QuickSortText
+    public class SortingText
     {
         //Attributes
         private int[] arr;
