@@ -10,7 +10,7 @@ namespace Sorts
     public class Program
     {
 
-        //QuickSort*********************************************************
+        //QuickSort**************************************************************************
 
         public void QuickSort(int[] arr, int low, int high)
         {
@@ -49,7 +49,7 @@ namespace Sorts
         }
 
 
-        //RandomizedQuickSort************************************************
+        //RandomizedQuickSort****************************************************************
         public void RandomizedQuickSort(int[] input, int left, int right)
         {
             if (left < right)
@@ -73,19 +73,20 @@ namespace Sorts
         }
 
 
-        //Main method
+        //Main method************************************************************************
         static void Main(string[] args)
         {
             Program pr = new Program();
-            int[] arr = { 10, 7, 8, 9, 1, 5 };
-            int n = arr.Length;
 
-            Stopwatch t = Stopwatch.StartNew();
-            pr.QuickSort(arr, 0, n - 1);
-            pr.RandomizedQuickSort(arr, 0, n - 1);
-            
-            Console.WriteLine(t.Elapsed.TotalMilliseconds);
-            arr.ToList().ForEach(a => Console.WriteLine(a));
+            //int[] arr = { 10, 7, 8, 9, 1, 5 };
+            //int n = arr.Length;
+
+            //Stopwatch t = Stopwatch.StartNew();
+            //pr.QuickSort(arr, 0, n - 1);
+            //pr.RandomizedQuickSort(arr, 0, n - 1);
+
+            //Console.WriteLine(t.Elapsed.TotalMilliseconds);
+            //arr.ToList().ForEach(a => Console.WriteLine(a));
 
             Console.ReadLine();
         }
