@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Sorts
+namespace QuickSort
 {
-    public class Sorting
+    class Program
     {
+
         public static int partition(int[] arr, int low, int high)
         {
             int pivot = arr[high];
@@ -52,6 +56,8 @@ namespace Sorts
             quickSort(arr, 0, n - 1);
             Console.WriteLine(t.Elapsed.TotalMilliseconds);
             arr.ToList().ForEach(a => Console.WriteLine(a));
+
+
 
             Console.WriteLine();
             Console.ReadLine();

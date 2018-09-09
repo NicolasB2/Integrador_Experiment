@@ -1,17 +1,19 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sorts;
+using QuickSort;
 
-namespace UnitTest
+
+namespace QuickSortText
+
 {
     [TestClass]
-    public class UnitTest1
+    public class QuickSortText
     {
+
         [TestMethod]
         public void TestMethod1()
         {
-            Sorting s = new Sorting();
-            
+        QuickSort n = 
         }
     }
 }

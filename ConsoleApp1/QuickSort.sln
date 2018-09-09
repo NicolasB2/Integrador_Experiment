@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{A9C98349-8872-4A02-B535-53C1E2B9E945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortText", "QuickSortText\QuickSortText.csproj", "{AC1E4769-1BE2-4F97-80F4-ECDCFCA25954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C98349-8872-4A02-B535-53C1E2B9E945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C98349-8872-4A02-B535-53C1E2B9E945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C98349-8872-4A02-B535-53C1E2B9E945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C98349-8872-4A02-B535-53C1E2B9E945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1E4769-1BE2-4F97-80F4-ECDCFCA25954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1E4769-1BE2-4F97-80F4-ECDCFCA25954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1E4769-1BE2-4F97-80F4-ECDCFCA25954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1E4769-1BE2-4F97-80F4-ECDCFCA25954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5188239-73D9-4E1C-87D0-85849A45C369}
+	EndGlobalSection
+EndGlobal
