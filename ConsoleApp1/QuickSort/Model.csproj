@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A9C98349-8872-4A02-B535-53C1E2B9E945}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>QuickSort</RootNamespace>
-    <AssemblyName>QuickSort</AssemblyName>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Experiment.cs" />
     <Compile Include="GenerateArray.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Sorts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

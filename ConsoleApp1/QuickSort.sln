@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorts", "QuickSort\Sorts.csproj", "{A9C98349-8872-4A02-B535-53C1E2B9E945}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "QuickSort\Model.csproj", "{A9C98349-8872-4A02-B535-53C1E2B9E945}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitText", "QuickSortText\UnitText.csproj", "{AC1E4769-1BE2-4F97-80F4-ECDCFCA25954}"
 EndProject

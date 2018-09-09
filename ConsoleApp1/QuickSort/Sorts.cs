@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sorts
+namespace Model
 {
-    public class Program
+    public class Sorts
     {
 
         //QuickSort**************************************************************************
@@ -71,26 +71,6 @@ namespace Sorts
 
             return Partition(input, left, right);
         }
-
-
-        //Main method************************************************************************
-        static void Main(string[] args)
-        {
-            Program pr = new Program();
-
-            //int[] arr = { 10, 7, 8, 9, 1, 5 };
-            //int n = arr.Length;
-
-            //Stopwatch t = Stopwatch.StartNew();
-            //pr.QuickSort(arr, 0, n - 1);
-            //pr.RandomizedQuickSort(arr, 0, n - 1);
-
-            //Console.WriteLine(t.Elapsed.TotalMilliseconds);
-            //arr.ToList().ForEach(a => Console.WriteLine(a));
-
-            Console.ReadLine();
-        }
-
 
     }
 }
