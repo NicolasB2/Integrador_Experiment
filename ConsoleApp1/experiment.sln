@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorts", "Sorts\Sorts.csproj", "{3E764EB4-5F83-4C4D-960E-8315A68CB669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingText", "SortingText\SortingText.csproj", "{9D424200-841E-412B-96DB-6CAE042EEDF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{EF5AC2F5-5325-4067-84C1-B6B201E764F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3E764EB4-5F83-4C4D-960E-8315A68CB669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E764EB4-5F83-4C4D-960E-8315A68CB669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E764EB4-5F83-4C4D-960E-8315A68CB669}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D424200-841E-412B-96DB-6CAE042EEDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D424200-841E-412B-96DB-6CAE042EEDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D424200-841E-412B-96DB-6CAE042EEDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D424200-841E-412B-96DB-6CAE042EEDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5AC2F5-5325-4067-84C1-B6B201E764F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5AC2F5-5325-4067-84C1-B6B201E764F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5AC2F5-5325-4067-84C1-B6B201E764F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5AC2F5-5325-4067-84C1-B6B201E764F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

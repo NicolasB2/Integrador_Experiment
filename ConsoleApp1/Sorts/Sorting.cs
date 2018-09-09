@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Sorts
 {
-    class Program
+    public class Sorting
     {
         public static int partition(int[] arr, int low, int high)
         {
