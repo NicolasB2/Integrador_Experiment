@@ -10,10 +10,13 @@ namespace QuickSortText
     [TestClass]
     public class QuickSortText
     {
+        //Attributes
         private int[] arr;
         private int[] answ;
         private Program pr;
 
+
+        //SetUps
         public void SetUp1()
         {
             pr = new Program();
@@ -59,6 +62,11 @@ namespace QuickSortText
         }
 
 
+        //Methodds
+
+        //QuickSort
+
+        //Shrot input
         [TestMethod]
         public void Quick_Short_Disorder()
         {
@@ -88,10 +96,11 @@ namespace QuickSortText
                 Assert.AreEqual(arr[i], answ[i]);
         }
 
+        //Long input
         [TestMethod]
         public void Quick_Long_Disorder()
         {
-            SetUp1();
+            SetUp4();
             int n = arr.Length;
             pr.QuickSort(arr, 0, n - 1);
             for (int i = 0; i < n; i++)
@@ -101,7 +110,7 @@ namespace QuickSortText
         [TestMethod]
         public void Quick_Long_Oreder()
         {
-            SetUp2();
+            SetUp5();
             int n = arr.Length;
             pr.QuickSort(arr, 0, n - 1);
             for (int i = 0; i < n; i++)
@@ -111,9 +120,73 @@ namespace QuickSortText
         [TestMethod]
         public void Quick_Long_OrederDescending()
         {
-            SetUp3();
+            SetUp6();
             int n = arr.Length;
             pr.QuickSort(arr, 0, n - 1);
+            for (int i = 0; i < n; i++)
+                Assert.AreEqual(arr[i], answ[i]);
+        }
+
+
+        //RandomSort
+
+        //Shrot input
+        [TestMethod]
+        public void Random_Short_Disorder()
+        {
+            SetUp1();
+            int n = arr.Length;
+            pr.RandomizedQuickSort(arr, 0, n - 1);
+            for (int i = 0; i < n; i++)
+                Assert.AreEqual(arr[i], answ[i]);
+        }
+
+        [TestMethod]
+        public void Random_Short_Oreder()
+        {
+            SetUp2();
+            int n = arr.Length;
+            pr.RandomizedQuickSort(arr, 0, n - 1);
+            for (int i = 0; i < n; i++)
+                Assert.AreEqual(arr[i], answ[i]);
+        }
+
+        public void Random_Short_OrederDescending()
+        {
+            SetUp3();
+            int n = arr.Length;
+            pr.RandomizedQuickSort(arr, 0, n - 1);
+            for (int i = 0; i < n; i++)
+                Assert.AreEqual(arr[i], answ[i]);
+        }
+
+        //Long input
+        [TestMethod]
+        public void Random_Long_Disorder()
+        {
+            SetUp4();
+            int n = arr.Length;
+            pr.RandomizedQuickSort(arr, 0, n - 1);
+            for (int i = 0; i < n; i++)
+                Assert.AreEqual(arr[i], answ[i]);
+        }
+
+        [TestMethod]
+        public void Random_Long_Oreder()
+        {
+            SetUp5();
+            int n = arr.Length;
+            pr.RandomizedQuickSort(arr, 0, n - 1);
+            for (int i = 0; i < n; i++)
+                Assert.AreEqual(arr[i], answ[i]);
+        }
+
+        [TestMethod]
+        public void Random_Long_OrederDescending()
+        {
+            SetUp6();
+            int n = arr.Length;
+            pr.RandomizedQuickSort(arr, 0, n - 1);
             for (int i = 0; i < n; i++)
                 Assert.AreEqual(arr[i], answ[i]);
         }
