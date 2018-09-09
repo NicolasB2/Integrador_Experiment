@@ -10,7 +10,7 @@ namespace Sorts
     public class Program
     {
 
-        public int Partition(int[] arr, int low, int high)
+        public static int Partition(int[] arr, int low, int high)
         {
             int pivot = arr[high];
 
@@ -36,6 +36,28 @@ namespace Sorts
             return i + 1;
         }
 
+        public void RandomizedQuickSort(int[] input, int left, int right)
+        {
+            if (left < right)
+            {
+                int q = RandomizedPartition(input, left, right);
+                RandomizedQuickSort(input, left, q - 1);
+                RandomizedQuickSort(input, q + 1, right);
+            }
+        }
+
+        private static int RandomizedPartition(int[] input, int left, int right)
+        {
+            Random random = new Random();
+            int i = random.Next(left, right);
+
+            int pivot = input[i];
+            input[i] = input[right];
+            input[right] = pivot;
+
+            return Partition(input, left, right);
+        }
+
         public void QuickSort(int[] arr, int low, int high)
         {
             if (low < high)
@@ -55,6 +77,8 @@ namespace Sorts
             int n = arr.Length;
             Stopwatch t = Stopwatch.StartNew();
             pr.QuickSort(arr, 0, n - 1);
+            //pr.RandomizedQuickSort(arr, 0, n - 1);
+
             Console.WriteLine(t.Elapsed.TotalMilliseconds);
             arr.ToList().ForEach(a => Console.WriteLine(a));
 
