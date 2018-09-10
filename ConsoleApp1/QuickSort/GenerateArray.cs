@@ -26,12 +26,24 @@ namespace Model
             return arr;
         }
 
+        public static int[] OrderArray(int[] arr)
+        {
+            Array.Sort(arr);
+            return arr;
+        }
+
         public static int[] DescendingArray(int size)
         {
             int[] arr = RandomArray(size);
+            Array.Sort(arr);
             arr.Reverse();
             return arr;
         }
 
+        public static int[] DescendingArray(int[]arr)
+        {
+            arr.Reverse();
+            return arr;
+        }
     }
 }

@@ -158,49 +158,8 @@ namespace UnitText
             QuickText();
         }
 
-        //[TestMethod]
-        //public void Quick_999999_Disorder()
-        //{
-        //    SetUp4(999990);
-        //    QuickText();
-        //}
 
-        //[TestMethod]
-        //public void Quick_999999_Oreder()
-        //{
-        //    SetUp5(999999);
-        //    QuickText();
-        //}
-
-        //[TestMethod]
-        //public void Quick_999999_Descending()
-        //{
-        //    SetUp6(999999);
-        //    QuickText();
-        //}
-
-        [TestMethod]
-        public void Quick_384759_Disorder()
-        {
-            SetUp4(384759);
-            QuickText();
-        }
-
-        [TestMethod]
-        public void Quick_384759_Oreder()
-        {
-            SetUp5(384759);
-            QuickText();
-        }
-
-        [TestMethod]
-        public void Quick_384759_Descending()
-        {
-            SetUp6(384759);
-            QuickText();
-        }
         
-
 
         //RandomSort****************************************************************************
 
@@ -288,47 +247,89 @@ namespace UnitText
             RandomText();
         }
 
+        //    [TestMethod]
+        //    public void Random_999999_Disorder()
+        //    {
+        //        SetUp4(999999);
+        //        RandomText();
+        //    }
+
+        //    [TestMethod]
+        //    public void Random_999999_Oreder()
+        //    {
+        //        SetUp5(999999);
+        //        RandomText();
+        //    }
+
+        //    [TestMethod]
+        //    public void Random_999999_Descending()
+        //    {
+        //        SetUp6(999999);
+        //        RandomText();
+        //    }
+
+        //    [TestMethod]
+        //    public void Random_384759_Disorder()
+        //    {
+        //        SetUp4(384759);
+        //        RandomText();
+        //    }
+
+        //    [TestMethod]
+        //    public void Random_384759_Oreder()
+        //    {
+        //        SetUp5(384759);
+        //        RandomText();
+        //    }
+
+        //    [TestMethod]
+        //    public void Random_384759_Descending()
+        //    {
+        //        SetUp6(384759);
+        //        RandomText();
+        //    }
         //[TestMethod]
-        //public void Random_999999_Disorder()
+        //public void Quick_999999_Disorder()
         //{
-        //    SetUp4(999999);
-        //    RandomText();
+        //    SetUp4(999990);
+        //    QuickText();
         //}
 
         //[TestMethod]
-        //public void Random_999999_Oreder()
+        //public void Quick_999999_Oreder()
         //{
         //    SetUp5(999999);
-        //    RandomText();
+        //    QuickText();
         //}
 
         //[TestMethod]
-        //public void Random_999999_Descending()
+        //public void Quick_999999_Descending()
         //{
         //    SetUp6(999999);
-        //    RandomText();
+        //    QuickText();
         //}
 
-        [TestMethod]
-        public void Random_384759_Disorder()
-        {
-            SetUp4(384759);
-            RandomText();
-        }
+        //[TestMethod]
+        //public void Quick_384759_Disorder()
+        //{
+        //    SetUp4(384759);
+        //    QuickText();
+        //}
 
-        [TestMethod]
-        public void Random_384759_Oreder()
-        {
-            SetUp5(384759);
-            RandomText();
-        }
+        //[TestMethod]
+        //public void Quick_384759_Oreder()
+        //{
+        //    SetUp5(384759);
+        //    QuickText();
+        //}
 
-        [TestMethod]
-        public void Random_384759_Descending()
-        {
-            SetUp6(384759);
-            RandomText();
-        }
+        //[TestMethod]
+        //public void Quick_384759_Descending()
+        //{
+        //    SetUp6(384759);
+        //    QuickText();
+        //}
+
     }
 
 
